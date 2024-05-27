@@ -1,0 +1,598 @@
+:root {
+  --main-color: #ffffff;
+  --secondary-color: #071629;
+  --third-color: #c271ff;
+}
+
+body {
+  position: relative;
+  width: 1440px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: var(--main-color);
+  margin: auto;
+}
+
+header {
+  position: absolute;
+  display: inline-flex;
+  width: 1103.41px;
+  height: 29.46px;
+  top: 35.02px;
+  left: 171.59px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 702px;
+}
+
+.menu {
+  display: flex;
+  width: 234px;
+  height: 15px;
+  font-size: 12px;
+  font-weight: 700; /* bold */
+  text-align: center;
+  justify-content: space-between;
+}
+
+a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.main_part {
+  width: 1440px;
+  height: 1093px;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-image: url("./images/img-bg.png");
+}
+
+.main_part h1 {
+  position: absolute;
+  text-align: center;
+  color: var(--main-color);
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700; /* bold */
+  line-height: normal;
+  width: 684px;
+  height: 151px;
+  top: 120px;
+  left: 377px;
+}
+
+.slogan {
+  position: absolute;
+  display: flex;
+  width: 240px;
+  height: 20px;
+  top: 350px;
+  left: 600px;
+  font-size: 16px;
+  font-family: Source Sans Pro, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  justify-content: space-between;
+}
+
+button {
+  position: absolute;
+  width: 162px;
+  height: 44px;
+  top: 419px;
+  left: 639px;
+  border-radius: 22px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+  font-weight: 600; /* semi bold */
+  background: var(--third-color);
+  color: var(--main-color);
+  box-shadow: 0px 2px 20px 0px #282828;
+  border: none;
+}
+
+.main_part h2 {
+  width: 290px;
+  height: 40px;
+  top: 620px;
+  left: 580px;
+  color: var(--main-color);
+  text-align: center;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  position: absolute;
+}
+
+.title {
+  color: var(--third-color);
+  font-weight: 700;
+}
+
+.main_part p {
+  color: var(--main-color);
+  text-align: center;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.pros {
+  position: absolute;
+  display: flex;
+  width: 1009px;
+  height: 237px;
+  top: 758px;
+  left: 217px;
+  font-size: 18px;
+  font-weight: 900;
+  justify-content: space-between;
+  color: var(--main-color);
+}
+
+.pros p {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+/* ------------------------- testimonials styling ----------------------------- */
+.testimonials {
+  position: absolute;
+  display: flex;
+  width: 1440px;
+  height: 392px;
+  top: 1093px;
+  left: -1px;
+  background-color: var(--third-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.quote_image {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  top: 116px;
+  left: 259px;
+  border-radius: 50%;
+}
+
+.testimonials_quote {
+  width: 730px;
+  height: 158px;
+  top: 100px;
+  left: 472px;
+  position: absolute;
+  color: var(--main-color);
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  display: inline-flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.author_name {
+  display: flex;
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  top: 80px;
+  left: 40px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.author_job {
+  display: flex;
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  top: 115px;
+  left: 40px;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* ------------------------- tutorials styling ---------------------------- */
+
+.tutorials {
+  position: absolute;
+  display: flex;
+  width: 1228px;
+  height: 450px;
+  top: 1572px;
+  left: 106px;
+  color: var(--main-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.tutorials h1 {
+  top: -27px;
+  color: var(--secondary-color);
+  text-align: center;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 300;
+  position: absolute;
+}
+
+.tuto_1 {
+  position: absolute;
+  display: flex;
+  width: 255px;
+  height: 335px;
+  top: 115px;
+  left: 58px;
+  background-color: var(--main-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.tutorial_preview {
+  position: absolute;
+  width: 255px;
+  height: 154px;
+  top: 0px;
+  border-radius: 5px 0px 0px 0px;
+}
+
+.play_button {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 45px;
+  left: 96px;
+}
+
+.tutorials h2 {
+  position: absolute;
+  width: 106px;
+  height: 20px;
+  top: 155px;
+  left: 13px;
+  color: var(--secondary-color);
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.tutorials h3 {
+  width: 86px;
+  height: 27px;
+  top: 250px;
+  left: 56px;
+  color: var(--third-color);
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  position: absolute;
+}
+
+.tutorials p {
+  width: 242px;
+  height: 20px;
+  top: 183px;
+  left: 13px;
+  color: rgba(7, 22, 41, 0.50);
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  position: absolute;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  top: 261px;
+  left: 13px;
+  position: absolute;
+}
+
+.stars {
+  width: 197px;
+  height: 15px;
+  top: 305px;
+  left: 13px;
+  position: absolute;
+}
+
+.stars p {
+  width: 34px;
+  height: 27px;
+  top: -18px;
+  left: 190px;
+  color: var(--third-color);
+  text-align: right;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  position: absolute;
+}
+
+.tuto_2 {
+  position: absolute;
+  display: flex;
+  width: 255px;
+  height: 335px;
+  top: 115px;
+  left: 344px;
+  background-color: var(--main-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.tuto_3 {
+  position: absolute;
+  display: flex;
+  width: 255px;
+  height: 335px;
+  top: 115px;
+  left: 629px;
+  background-color: var(--main-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.tuto_4 {
+  position: absolute;
+  display: flex;
+  width: 255px;
+  height: 335px;
+  top: 115px;
+  left: 914px;
+  background-color: var(--main-color);
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------------------------ free_memebership styling ------------------------- */
+
+.free_membership {
+  position: absolute;
+  display: flex;
+  width: 1440px;
+  height: 502px;
+  top: 2109px;
+  background-color: var(--secondary-color);
+}
+
+.free_membership h1 {
+  width: 250px;
+  height: 40px;
+  top: 60px;
+  left: 617px;
+  color: var(--main-color);
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  position: absolute;
+}
+
+.dot_1 {
+  position: absolute;
+  text-align: center;
+  width: 257px;
+  height: 153px;
+  top: 168px;
+  left: 164px;
+  color: var(--main-color);
+}
+
+.dot_2 {
+  position: absolute;
+  text-align: center;
+  width: 257px;
+  height: 153px;
+  top: 168px;
+  left: 448px;
+  color: var(--main-color);
+}
+
+.dot_3 {
+  position: absolute;
+  text-align: center;
+  width: 257px;
+  height: 153px;
+  top: 168px;
+  left: 733px;
+  color: var(--main-color);
+}
+
+.dot_4 {
+  position: absolute;
+  text-align: center;
+  width: 257px;
+  height: 153px;
+  top: 168px;
+  left: 1019px;
+  color: var(--main-color);
+}
+
+.free_membership h2 {
+  color: var(--main-color);
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.free_membership p {
+  width: 212px;
+  left: 22px;
+  color: var(--main-color);
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  position: relative;
+}
+
+/* ----------------------- faq styling ----------------------- */
+
+.faq {
+  position: absolute;
+  display: flex;
+  width: 920px;
+  height: 707px;
+  top: 2678px;
+  left: 249px;
+  background-color: var(--main-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.faq h1 {
+  position: absolute;
+  width: 136px;
+  height: 50px;
+  left: 407px;
+  margin: 0px;
+  top: 0px;
+  color: var(--secondary-color);
+  text-align: center;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.faq h2 {
+  width: 170px;
+  height: 20px;
+  top: 0px;
+  color: var(--secondary-color);
+  text-align: center;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+}
+
+.faq p {
+  position: absolute;
+  width: 350px;
+  height: 192px;
+  top: 50px;
+  left: 12px;
+  color: rgba(7, 22, 41, 0.50);
+  text-align: left;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.Q_1 {
+  width: 350px;
+  height: 242px;
+  top: 149px;
+  left: 0px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.Q_2 {
+  width: 350px;
+  height: 242px;
+  top: 465px;
+  left: 0px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.Q_3 {
+  width: 350px;
+  height: 242px;
+  top: 149px;
+  left: 570px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.Q_4 {
+  width: 350px;
+  height: 242px;
+  top: 465px;
+  left: 570px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+/* ---------------- footer styling ---------------------- */
+
+footer {
+  width: 1440px;
+  height: 249px;
+  top: 3469px;
+  background-color: var(--secondary-color);
+  position: absolute;
+}
+
+.logo_footer {
+  width: 169px;
+  height: 30px;
+  top: 95px;
+  left:165px;
+  position: absolute;
+}
+
+footer a {
+  width: 130px;
+  height: 30px;
+  top: 90px;
+  left: 1070px;
+  position: absolute;
+}
+
+footer p{
+  width: 100px;
+  height: 15px;
+  top: 195px;
+  left: 672px;
+  color: var(--main-color);
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.3517;
+  position: absolute;
+}
